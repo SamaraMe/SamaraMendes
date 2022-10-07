@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(230, 230, 230);
+     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+     margin: 0;
+   }
+   
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   .logo {
+     font-size: 30px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     transition: 0.3s;
+   }
+   
+   nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+     background: #232325f8;
+     height: 9.3vh;
+     width: 100%;
+   }
+
+   h1{
+    font-size: 40pt;
+    letter-spacing: 5px;
+   }
+   
+   hr{
+     margin-top: 50px;
+     margin-bottom: 10px;
+     width: 100%;
+   }
+
+
+   
+   .container{
+     display: flex;
+     margin: 10px;
+     width: 100%;
+     margin-top: 10px;
+   }
+   
+   
+   
+   button{
+     background-color: transparent;
+     border-color: #000000;
+     color: #000000;
+     padding: 7px;
+     font-weight: bold;
+     font-size: 14pt;
+     width: 12vw;
+     margin-top: 20px;
+     border-radius: 4px;
+     cursor: pointer;
+     overflow: none;
+     transition: all 0.4s ease-out;
+   }
+   
+   button:hover{
+     background: #0e0d0d;
+     color: #ffffff;
+   }
+   
+   
+   
+   footer{
+     margin-top: 18%;
+   }
+
+   footer{
+    background: #00000050;
+    padding: 60px;
+    }
+    
+    .container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    }
+    
+    .row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    }
+    
+    .footer-col h4{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    }
+    
+    .footer-col ul{
+    list-style: none;
+    margin: 10px;
+    }
+    
+    .footer-col ul li{
+    margin: 10px 0;
+    }
+    
+    .footer-col ul li a{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover{
+    color: rgb(88, 88, 88);
+    padding-left: 10px;
+    }
+    
+    /* medeas sociais */
+    @media (max-width:600px){
+        .footer-col{
+          width: 100%;
+        }
+      }
+   
+   
+   
+   
